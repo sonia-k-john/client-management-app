@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ClientManagementComponent } from './client-management/client-management.component';
+import { MeetingSchedulingComponent } from './meeting-scheduling/meeting-scheduling.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ClientManagementComponent,
+    MeetingSchedulingComponent
   ],
   imports: [
     BrowserModule,
