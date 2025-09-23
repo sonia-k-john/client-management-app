@@ -1,1 +1,30 @@
-<p>client-management works!</p>
+<h2>Add New Client</h2>
+
+<form (ngSubmit)="addClient()">
+    <label for="name">Name:</label><br />
+    <input id="name" [(ngModel)]="client.name" name="name" required /><br />
+
+    <label for="email">Email:</label><br />
+    <input id="email" [(ngModel)]="client.email" name="email" type="email" required /><br />
+
+    <label for="address">Address:</label><br />
+    <input id="address" [(ngModel)]="client.address" name="address" required /><br />
+
+    <label for="password">Password:</label><br />
+    <input id="password" [(ngModel)]="client.password" name="password" type="password" required /><br />
+
+    <label for="repeatPassword">Repeat Password:</label><br />
+    <input id="repeatPassword" [(ngModel)]="client.repeatPassword" name="repeatPassword" type="password"
+        required /><br /><br />
+
+    <button type="submit">Add Client</button>
+</form>
+
+<hr />
+
+<h3>Current Clients</h3>
+<ul>
+    <li *ngFor="let c of clientsList">
+        <strong>{{ c.name }}</strong> — {{ c.email }} — {{ c.address }}
+    </li>
+</ul>
