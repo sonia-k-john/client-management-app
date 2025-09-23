@@ -1,27 +1,28 @@
-# ClientManagementApp
+# Client Management Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.1.
+This is a simple Angular project to manage clients and meetings. It has basic pages to add clients and schedule meetings.
+This project is a part of an assignment of SimpliLearn Java Full Stack Developer Course for learning All About Planning and Designing UI. 
 
-## Development server
+## This project uses 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+HTML/CSS 
+JavaScript
+Angular
+MySQL
 
-## Code scaffolding
+## Prerequisites
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Make sure you have Node.js and Angular CLI installed on your machine.
 
-## Build
+## How to run
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone this repository.
+2. Run `npm install` to install all dependencies.
+3. Run `ng serve` to start the development server.
+4. Open your browser and go to `http://localhost:4200/`.
 
-## Running unit tests
+## Project Structure
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- `src/app/client-management`: Client management features.
+- `src/app/meeting-scheduling`: Meeting scheduling features.
+- `src/app/app-routing.module.ts`: Routes configuration.
