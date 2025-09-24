@@ -33,3 +33,12 @@ Make sure you have Node.js and Angular CLI installed on your machine.
 USE client_management_db;
 SELECT * FROM clients;
 SELECT * FROM meetings;
+
+## BDD Feature Files
+
+The feature files for Behavior Driven Development (BDD) scenarios are located in the `features/` folder:
+
+- `features/client-management.feature`  
+- `features/meeting-scheduling.feature`
+
+These contain the use case scenarios for adding and listing clients and meetings.
